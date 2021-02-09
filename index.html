@@ -8,20 +8,21 @@
     <!-- Bootstrap, Font-awesome CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"/>
     <link rel="stylesheet" href="css/styles.css" />
     <title>ChocoLove</title>
 </head>
 
-<body>
+<body class = "bg-light">
     <header>
-
         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand ml-1" href="#"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
-                <h3 class="pacificoFont">ChocoLove</h3>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <h3 class="pacificoFont fixed">ChocoLove</h3>
+                <button class="navbar-toggler navbarBtn ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,21 +34,21 @@
                             <a class="nav-link montserrat" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" href="#">About</a>
+                            <a class="nav-link montserrat" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" href="#">Order</a>
+                            <a class="nav-link montserrat" href="order.html">Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" href="#">Blog</a>
+                            <a class="nav-link montserrat" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link montserrat" href="#">Contact</a>
+                            <a class="nav-link montserrat" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <button class="btn my-2 my-sm-2" type="submit"><i class="fa fa-search"></i></button>
-                <button class="btn my-2 my-sm-2" type="submit"><i class="fa fa-shopping-cart"></i></button>
+                <button class="btn btn-sm" type="submit"><i class="fa fa-search"></i></button>
+                <button class="btn btn-sm" type="submit"><i class="fa fa-shopping-cart"></i></button>
             </div>
         </nav>
 
@@ -85,9 +86,46 @@
         </button>
     </div>
 
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <h2 class="mx-auto crimsonPro text-center p-5" id="textCenter">Cupcake ipsum dolor sit amet. I love chocolate cake powder. Cake jelly beans wafer caramels muffin I love.</h2>
+        </div>
+        <div class="row mb-5">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top cardImg" src="img/chocolate-strawberries-48f9511.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Valentine's Day Specials</h5>
+                        <p class="card-text">Pudding pie icing tiramisu chocolate bar. Wafer fruitcake donut croissant sugar plum halvah soufflé. Fruitcake pie chocolate cake cookie cotton candy cheesecake soufflé. Sesame snaps apple pie dragée I love I love.</p>
+                        <a href="order.html" class="card-link">Order Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top cardImg" src="imG/images (2).jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Online</h5>
+                        <p class="card-text">Cupcake ipsum dolor sit amet jelly tiramisu. Jujubes muffin tart brownie. Tiramisu gummi bears marzipan. Candy canes carrot cake oat cake brownie pudding candy apple pie lollipop.
+                        </p>
+                        <a href="order.html" class="card-link">Order Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top cardImg" src="img/EspresspChocolateTruffles3-1-of-1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog</h5>
+                        <p class="card-text">Cupcake ipsum dolor sit amet topping icing cake. Dragée sweet sesame snaps. Jelly brownie jelly beans liquorice lemon drops cotton candy cake.</p>
+                        <a href="blog.html" class="card-link">Read Blog Here</a>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <h5 class="montserrrat">Sign up for e-newsletter!</h5>
@@ -101,15 +139,17 @@
             </div>
 
             <div class="row mt-5">
-                <div class="col-4 d-inline-flex">
-                    <a class="ml-1" href="#"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
+                
+                
+                <div class="col d-inline-flex order-last-sm justify-content-start">
+                    <a class="img-footer" href="#"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
                     <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
                 </div>
-                <div class="col-8 d-flex justify-content-end">
-                    <a href="http://instagram.com/"><i class="fa fa-instagram text-dark p-1"></i></a>
-                    <a href="http://facebook.com/"><i class="fa fa-facebook text-dark p-1"></i></a>
-                    <a href="http://twitter.com/"><i class="fa fa-twitter text-dark p-1"></i></a>
-                    <a href="http://youtube.com/"><i class="fa fa-youtube text-dark p-1"></i></a>
+                <div class="col d-flex order-first-sm justify-content-end">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -120,7 +160,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src ="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
