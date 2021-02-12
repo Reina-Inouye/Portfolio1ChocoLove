@@ -26,21 +26,23 @@ font-family: 'Crimson Pro', serif;
     min-height: 200px;
   }
 
+/* used in text below carousel in home page */
 #textCenter {
     width:65%;
 }
 
 .carImg {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     object-fit:cover;   
 }
 
 .cardImg {
     width: 100%;
     height: 40vh;
-    object-fit: cover;   
+    object-fit: fill;   
 }
+
 #carouselButton {
     position:absolute;
     right:0;
@@ -48,14 +50,25 @@ font-family: 'Crimson Pro', serif;
     z-index: 10;
 }
 body {
-    margin-top:100px;
-    
+    margin-top:100px; 
 }
+
+/* .opacity {
+    /* background: no-repeat center/100% url("../img/ChocSmile5.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(161, 161, 157, 0.8);
+    height: 30vh;
+    width: 100%; */
+    
+    /* background-image: linear-gradient( rgba(138, 120, 120, 0.1), rgba(131, 113, 113, 0.1) ), url("../img/ChocSmile5.jpg");
+    -webkit-font-smoothing: antialiased;  
+} */ 
+
+
 
 .opacity {
     position: relative; 
-    /* height: 100vh;
-    width: 100%; */
+    max-height: 40vh;
+    width: 100%; 
     display: flex;
     align-items: center;
     justify-content:center;
@@ -71,12 +84,12 @@ body {
       bottom: 0px;
       left: 0px;
       opacity: 0.55;
-}
+} 
 
 .imgText {
   font-family: 'Crimson Pro', serif;
   position: relative;
-  color:black;  
+  color: black;  
   text-align: center;
   font-weight: bold;
   font-size: 2.5em;
@@ -87,11 +100,15 @@ body {
 }
 
 .btnRnd {
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
-map {
-  border: 10px solid;
-  padding: 10px;
-  box-shadow: 5px 10px;
+.map {
+  border: 2px solid;
+  height: 35vh;
+  width: 50vh; 
+}
+
+.row-map {
+    padding: 50px 0;   
 }

@@ -11,19 +11,20 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>ChocoLove</title>
 </head>
 
-<body class = "bg-light">
+<body class="bg-light">
     <header>
         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
             <div class="container-fluid">
                 <a class="navbar-brand ml-1" href="#"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
                 <h3 class="pacificoFont fixed">ChocoLove</h3>
-                <button class="navbar-toggler navbarBtn ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbarBtn ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -88,7 +89,8 @@
 
     <div class="container-fluid bg-light">
         <div class="row">
-            <h2 class="mx-auto crimsonPro text-center p-5" id="textCenter">Cupcake ipsum dolor sit amet. I love chocolate cake powder. Cake jelly beans wafer caramels muffin I love.</h2>
+            <h2 class="mx-auto crimsonPro text-center p-5" id="textCenter">Cupcake ipsum dolor sit amet. I love
+                chocolate cake powder. Cake jelly beans wafer caramels muffin I love.</h2>
         </div>
         <div class="row mb-5">
             <div class="card-deck">
@@ -96,26 +98,39 @@
                     <img class="card-img-top cardImg" src="img/chocolate-strawberries-48f9511.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Valentine's Day Specials</h5>
-                        <p class="card-text">Pudding pie icing tiramisu chocolate bar. Wafer fruitcake donut croissant sugar plum halvah soufflé. Fruitcake pie chocolate cake cookie cotton candy cheesecake soufflé. Sesame snaps apple pie dragée I love I love.</p>
-                        <a href="order.html" class="card-link">Order Here</a>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text">Pudding pie icing tiramisu chocolate bar. Wafer fruitcake donut croissant
+                            sugar plum halvah soufflé. Fruitcake pie chocolate cake cookie cotton candy cheesecake
+                            soufflé. Sesame snaps apple pie dragée I love I love.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="order.html" class="card-link">Order Here</a><br>
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card-img-top cardImg" src="imG/images (2).jpeg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Order Online</h5>
-                        <p class="card-text">Cupcake ipsum dolor sit amet jelly tiramisu. Jujubes muffin tart brownie. Tiramisu gummi bears marzipan. Candy canes carrot cake oat cake brownie pudding candy apple pie lollipop.
+                        <p class="card-text">Cupcake ipsum dolor sit amet jelly tiramisu. Jujubes muffin tart brownie.
+                            Tiramisu gummi bears marzipan. Candy canes carrot cake oat cake brownie pudding candy apple
+                            pie lollipop.
                         </p>
-                        <a href="order.html" class="card-link">Order Here</a>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="order.html" class="card-link">Order Here</a><br>
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top cardImg" src="img/EspresspChocolateTruffles3-1-of-1.jpg" alt="Card image cap">
+                    <img class="card-img-top cardImg" src="img/EspresspChocolateTruffles3-1-of-1.jpg"
+                        alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Blog</h5>
-                        <p class="card-text">Cupcake ipsum dolor sit amet topping icing cake. Dragée sweet sesame snaps. Jelly brownie jelly beans liquorice lemon drops cotton candy cake.</p>
+                        <p class="card-text">Cupcake ipsum dolor sit amet topping icing cake. Dragée sweet sesame snaps.
+                            Jelly brownie jelly beans liquorice lemon drops cotton candy cake.</p>
+
+                    </div>
+                    <div class="card-footer">
                         <a href="blog.html" class="card-link">Read Blog Here</a>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
@@ -126,7 +141,40 @@
 
     <footer class="footer">
         <div class="container-fluid">
+
+            <!-- Button trigger modal -->
             <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark d-flex" data-toggle="modal"
+                        data-target="#exampleModalCenter">
+                        Sign up for our e-newsletter!
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-dark">
+                            <h5 class="modal-title text-light" id="exampleModalLongTitle">Sign up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body m-auto">
+                            <form class="form-inline form-group">
+                                <input class="form-control mr-sm-0" size="40" type="email" placeholder="Email"
+                                    aria-label="Search">
+                                <button class="btn my-2 my-sm-0 btn-dark " type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <h5 class="montserrrat">Sign up for e-newsletter!</h5>
                 </div>
@@ -135,24 +183,30 @@
                         <input class="form-control mr-sm-0" type="email" placeholder="Email" aria-label="Search">
                         <button class="btn my-2 my-sm-0 btn-dark " type="submit">Submit</button>
                     </form>
+                </div> -->
+
+
+            <div class="row mt-5 flex-row-reverse">
+
+                <div class="col d-flex justify-content-end">
+                    <a class="btn btn-social-icon btn-instagram btnRnd" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook btnRnd" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter btnRnd" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google btnRnd" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+
+                <div class="col d-inline-flex justify-content-start">
+                    <a class="img-footer" href="#"><img src="img/imageedit_1_4985156273.png" height="80" width="80"></a>
+                    <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
                 </div>
             </div>
 
-            <div class="row mt-5">
-                
-                
-                <div class="col d-inline-flex order-last-sm justify-content-start">
-                    <a class="img-footer" href="#"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
-                    <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
-                </div>
-                <div class="col d-flex order-first-sm justify-content-end">
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
-            </div>
         </div>
+
 
     </footer>
 

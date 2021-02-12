@@ -58,28 +58,27 @@
 
     </header>
 
-    <div class="container">
-        <div class="row">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                </ol>
-            </nav>
+    <div class="row m-0">
+        <div class = "col-12 p-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
         </div>
     </div>
 
 
-
     <div class="jumbotron jumbotron-fluid opacity">
-        <p class="display-4 text-center imgText">Contact Us</p>
+        <p class="text-center imgText">Contact Us</p>
     </div>
 
 
     <div class="container">
         <div class="row pt-3 text-center">
             <div class="col-sm-4">
-                <a role = "button" class="btn btn-link btn-primary btn-md btnRnd text-white"><i class="fa fa-map-marker"></i></a>
+                <a role = "button" class="btn btn-link btn-primary btn-md btnRnd text-white"><i class="fa fa-map-marker fa-lg"></i></a>
                 <p class="mb-0">124 Kapahulu Ave</p>
                 <p class="mb-0">Honolulu, HI 96822</p>
             </div>
@@ -91,19 +90,16 @@
             </div>
 
             <div class="col-sm-4">
-                <a role="button" class="btn btn-link btn-primary btn-md btnRnd text-white" href="mailto:info@chocolove.co"><i class="fa fa-envelope"></i></a>
+                <a role="button" class="btn btn-link btn-primary btn-md btnRnd text-white" href="mailto:info@chocolove.co"><i class="fa fa-envelope fa-xsm"></i></a>
                 <p class="mb-0">info@ChocoLove.com</p>
 
             </div>
         </div>
 
-        <div class="row row-content">
-            <div class="col-12 d-flex justify-content-center">
-                <div id="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.989018133323!2d-157.8242140850632!3d21.27190228586714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00727097e94909%3A0x5f18354115a73ecc!2s124%20Kapahulu%20Ave%2C%20Honolulu%2C%20HI%2096815!5e0!3m2!1sen!2sus!4v1612857641339!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+        <div class="row row-map">
+            <div class="col-10 offset-1 col-sm-8 offset-sm-2 d-flex justify-content-center">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14871.95610142114!2d-157.822025!3d21.271902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00727097e94909%3A0x5f18354115a73ecc!2s124%20Kapahulu%20Ave%2C%20Honolulu%2C%20HI%2096815!5e0!3m2!1sen!2sus!4v1612916582931!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
@@ -121,7 +117,7 @@
             </div>
             <div class="form-group row">
                 <div class="col-sm-8 offset-sm-2">
-                    <input type="tel" class="form-control" id="telNum" name="telNum" placeholder="Tel. number" />
+                    <input type="tel" class="form-control" id="telNum" name="telNum" placeholder="Phone number" />
                 </div>
             </div>
             <div class="form-group row">
@@ -168,20 +164,30 @@
 
     <footer class="footer">
         <div class="container-fluid">
-            <div class="row mt-5">
-                <div class="col-2 d-inline-flex justify-content-start">
-                    <a class="img-footer" href="index.html"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
+
+            <div class="row mt-5 flex-row-reverse">
+
+                <div class="col d-flex justify-content-end">
+                    <a class="btn btn-social-icon btn-instagram btnRnd" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook btnRnd" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter btnRnd" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google btnRnd" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+
+                <div class="col d-inline-flex justify-content-start">
+                    <a class="img-footer" href="#"><img src="img/imageedit_1_4985156273.png" height="80" width="80"></a>
                     <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
                 </div>
-                <div class="col-10 d-flex justify-content-end">
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
             </div>
+
         </div>
+
     </footer>
+
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

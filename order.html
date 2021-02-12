@@ -2,102 +2,230 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap, Font-awesome CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>ChocoLove</title>
+  <!-- Bootstrap, Font-awesome CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>ChocoLove</title>
 </head>
 
 <body class="bg-light">
-    <header>
-        <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-            <div class="container-fluid">
-                <a class="navbar-brand ml-1" href="index.html"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
-                <h3 class="pacificoFont">ChocoLove</h3>
-                <button class="navbar-toggler navbarBtn ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <header>
+    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand ml-1" href="index.html"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
+        <h3 class="pacificoFont">ChocoLove</h3>
+        <button class="navbar-toggler navbarBtn ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <!-- m-auto centers navbar -->
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link montserrat" href="index.html">Home </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link montserrat" href="about.html">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link montserrat" href="#">Order</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link montserrat" href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link montserrat" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="btn btn-sm" type="submit"><i class="fa fa-search"></i></button>
-                <button class="btn btn-sm" type="submit"><i class="fa fa-shopping-cart"></i></button>
-            </div>
-        </nav>
-
-
-    </header>
-
-    <div class="container">
-        <div class="row">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Order</li>
-                </ol>
-            </nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- m-auto centers navbar -->
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link montserrat" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link montserrat" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link montserrat" href="#">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link montserrat" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link montserrat" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+        <button class="btn btn-sm" type="submit"><i class="fa fa-search"></i></button>
+        <button class="btn btn-sm" type="submit"><i class="fa fa-shopping-cart"></i></button>
+      </div>
+    </nav>
 
 
+  </header>
 
+  <div class="row m-0">
+    <div class = "col-12 p-0">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Order</li>
+        </ol>
+    </nav>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid opacity">
+    <p class="text-center imgText">Order Here</p>
+  </div>
+
+  <div class="container bg-light">
+
+    <div class="row">
+      <h2 class="mx-auto crimsonPro text-center p-5" id="row1">Valentines Day Specials</h2>
+    </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/chocolate-strawberries-48f9511.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Chocolate Covered Strawberries</h5>
+          <p class="card-text">Box of 12 chocolate strawberries</p>
+        </div>
+        <div class="card-footer">
+          <p>$18.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/images.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Chocolate Hearts</h5>
+          <p class="card-text">Box of 12 hearts</p>
+        </div>
+        <div class="card-footer">
+          <p>$12.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/images (2).jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Box of chocolates</h5>
+          <p class="card-text">Contains our 12 best-sellers</p>
+        </div>
+        <div class="card-footer">
+          <p>$19.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
     </div>
 
 
+    <div class="row">
+      <h2 class="mx-auto crimsonPro text-center p-5" id="row2">Our Best Sellers</h2>
+    </div>
+
+    <div class="card-deck mb-5">
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/EspresspChocolateTruffles3-1-of-1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Expresso Chocolate Truffles</h5>
+          <p class="card-text">Box of 12</p>
+        </div>
+        <div class="card-footer">
+          <p>$18.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/file-20200827-16-1wdtphh.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Chocolate Truffles</h5>
+          <p class="card-text">Box of 12</p>
+        </div>
+        <div class="card-footer">
+          <p>$12.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/images (1).jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Box of chocolates</h5>
+          <p class="card-text">Contains our 12 best-sellers</p>
+        </div>
+        <div class="card-footer">
+          <p>$19.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck mb-5">
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/iStock-155097702-min.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Box of Chocolates</h5>
+          <p class="card-text">Contains 12 assorted flavors</p>
+        </div>
+        <div class="card-footer">
+          <p>$18.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/istock-522735736.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Box of Chocolates</h5>
+          <p class="card-text">Contains 12 assorted flavors</p>
+        </div>
+        <div class="card-footer">
+          <p>$12.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top cardImg" src="img/121916lunchchocolate_960x540.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Box of chocolates</h5>
+          <p class="card-text">Contains our 12 best-sellers</p>
+        </div>
+        <div class="card-footer">
+          <p>$19.99</p>
+          <a href="#" class="card-link">Add to cart</a><br>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
+  <footer class="footer">
+    <div class="container-fluid">
 
+        <div class="row mt-5 flex-row-reverse">
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row mt-5">
-                <div class="col-2 d-inline-flex justify-content-start">
-                    <a class="img-footer" href="index.html"><img src="img/image0 (1).jpeg" height="80" width="80"></a>
-                    <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
-                </div>
-                <div class="col-10 d-flex justify-content-end">
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
+            <div class="col d-flex justify-content-end">
+                <a class="btn btn-social-icon btn-instagram btnRnd" href="http://instagram.com/"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook btnRnd" href="http://facebook.com/"><i
+                        class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter btnRnd" href="http://twitter.com/"><i
+                        class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google btnRnd" href="http://youtube.com/"><i
+                        class="fa fa-youtube"></i></a>
+            </div>
+
+            <div class="col d-inline-flex justify-content-start">
+                <a class="img-footer" href="#"><img src="img/imageedit_1_4985156273.png" height="80" width="80"></a>
+                <h3 class="ml-3 pt-3 pacificoFont">ChocoLove</h3>
             </div>
         </div>
 
-    </footer>
+    </div>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+</footer>
+
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
