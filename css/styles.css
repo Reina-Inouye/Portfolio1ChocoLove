@@ -40,7 +40,12 @@ font-family: 'Crimson Pro', serif;
 .cardImg {
     width: 100%;
     height: 40vh;
-    object-fit: fill;   
+    object-fit: cover;   
+}
+
+.cardImgTrialBlog {
+    width: 100%;
+    object-fit: scale-down;   
 }
 
 #carouselButton {
@@ -52,18 +57,6 @@ font-family: 'Crimson Pro', serif;
 body {
     margin-top:100px; 
 }
-
-/* .opacity {
-    /* background: no-repeat center/100% url("../img/ChocSmile5.jpg");
-    box-shadow: inset 0 0 0 2000px rgba(161, 161, 157, 0.8);
-    height: 30vh;
-    width: 100%; */
-    
-    /* background-image: linear-gradient( rgba(138, 120, 120, 0.1), rgba(131, 113, 113, 0.1) ), url("../img/ChocSmile5.jpg");
-    -webkit-font-smoothing: antialiased;  
-} */ 
-
-
 
 .opacity {
     position: relative; 
@@ -83,7 +76,7 @@ body {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.55;
+      opacity: 0.45;
 } 
 
 .imgText {
@@ -103,11 +96,33 @@ body {
     border-radius: 50%;
 }
 
-.map {
-  border: 2px solid;
-  height: 35vh;
-  width: 50vh; 
+
+.google-map {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
 }
+
+/* .google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+/* .google-maps {
+  border: 2px solid;
+  height: 60vh;
+  min-width: 75wh; 
+} */
 
 .row-map {
     padding: 50px 0;   
